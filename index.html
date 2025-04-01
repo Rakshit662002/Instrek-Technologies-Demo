@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrek Technologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar Section -->
+    <nav class="bg-blue-600 text-white p-4 sticky-navbar">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-semibold">Instrek Technologies</h1>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:underline"></a></li>
+                <li><a href="about-us.html" class="hover:underline">About Us</a></li> <!-- Correct link to About Us -->
+                <li><a href="trainings.html" class="hover:underline">Trainings</a></li>
+             
+                <li><a href="services.html" class="hover:underline">Services</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+              
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="relative bg-blue-600 text-white h-screen flex justify-between items-center overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="flex items-center justify-between relative z-10 max-w-7xl mx-auto px-6">
+            <div class="text-left max-w-2xl mx-auto px-6 md:px-0">
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6 animate__animated animate__fadeInUp text-white">
+                    Empowering Futures, Engineered Today
+                </h2>
+                <p class="mt-4 text-xl sm:text-2xl md:text-3xl max-w-xl mx-auto animate__animated animate__fadeInUp text-white">
+                    At Instrek Technologies, we drive the future with AI, IoT, AIoT, Blockchain, and next-gen digital solutions. We empower businesses to embrace technological advancements, unlocking untapped potential and transforming industries.
+                </p>
+                <div class="mt-8">
+                    <a href="#services" class="bg-blue-800 text-white py-3 px-6 rounded-lg text-lg hover:bg-blue-900 transition-all transform hover:scale-105" id="explore-solutions">
+                        Explore Our Solutions
+                    </a>
+                </div>
+            </div>
+            <div class="mt-6 w-full md:w-1/2">
+                <img 
+                    src="https://instrek.com/wp-content/uploads/2025/03/image_0.webp" 
+                    alt="Instrek Technologies" 
+                    class="rounded-lg shadow-xl max-w-full h-auto object-cover object-center transition-all duration-500 transform hover:scale-105 hover:shadow-2xl"
+                    fetchpriority="high" 
+                    decoding="async"
+                    width="1024" 
+                    height="1024"
+                    srcset="https://instrek.com/wp-content/uploads/2025/03/image_0.webp 1024w, https://instrek.com/wp-content/uploads/2025/03/image_0-300x300.webp 300w, https://instrek.com/wp-content/uploads/2025/03/image_0-150x150.webp 150w, https://instrek.com/wp-content/uploads/2025/03/image_0-768x768.webp 768w, https://instrek.com/wp-content/uploads/2025/03/image_0-600x600.webp 600w"
+                    sizes="(max-width: 1024px) 100vw, 1024px"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainings and Skilling Section -->
+    <section id="trainings" class="py-20 bg-white text-center fade-in-up">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900">Unlock Your Potential with Instrek's Expert-Led Training Programs</h2>
+            <p class="mt-4 text-lg max-w-3xl mx-auto text-gray-700">
+                Empowering individuals and organizations through skill development for the rapidly evolving technological landscape.
+            </p>
+            <div class="mt-12 grid md:grid-cols-3 gap-10">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-gray-900"> <img src="assets/Ai.jpg" alt="">AI and Machine Learning</h3>
+                    <p class="mt-4 text-gray-700">Master AI and machine learning fundamentals and gain practical experience.</p>
+                    <button class="mt-4 text-blue-600 hover:text-white hover:bg-blue-600 transition-all py-2 px-4 rounded-lg" id="learn-ai">
+                        Learn More
+                    </button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-gray-900"><img src="assets/Blo.jpg" alt="">Blockchain Technologies</h3>
+                    <p class="mt-4 text-gray-700">Explore blockchain's transformative potential and develop secure applications.</p>
+                    <button class="mt-4 text-blue-600 hover:text-white hover:bg-blue-600 transition-all py-2 px-4 rounded-lg" id="learn-blockchain">
+                        Learn More
+                    </button>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-gray-900"><img src="assets/IOT.avif" alt="">Internet of Things (IoT)</h3>
+                    <p class="mt-4 text-gray-700">Learn IoT architecture and create intelligent, connected systems.</p>
+                    <button class="mt-4 text-blue-600 hover:text-white hover:bg-blue-600 transition-all py-2 px-4 rounded-lg" id="learn-iot">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-100 text-center fade-in-up">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900">Unlocking Efficiency with AI-Powered IT Solutions</h2>
+            <p class="mt-4 text-lg max-w-3xl mx-auto text-gray-700">
+                AI-driven IT solutions designed to optimize operations, enhance security, and drive innovation.
+            </p>
+            <div class="mt-12 grid md:grid-cols-2 gap-10">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-gray-900">Key Features</h3>
+                    <ul class="mt-4 list-disc list-inside text-gray-700">
+                        <li>Predictive analytics</li>
+                        <li>Automation</li>
+                        <li>Enhanced cybersecurity protocols</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+                    <h3 class="text-xl font-semibold text-gray-900">Core Benefits</h3>
+                    <ul class="mt-4 list-disc list-inside text-gray-700">
+                        <li>Cost efficiency</li>
+                        <li>Increased productivity</li>
+                        <li>Scalability</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#contact" class="bg-blue-800 text-white py-3 px-6 rounded-lg text-lg hover:bg-blue-900 transition-all transform hover:scale-105" id="contact-us">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white text-center fade-in-up">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900">Contact Us</h2>
+            <p class="mt-4 text-lg max-w-3xl mx-auto text-gray-700">
+                Reach out to discuss your next big project or learn more about our services.
+            </p>
+            <form action="mailto:tithika.mittal@instrek.com" method="POST" enctype="text/plain" class="mt-8">
+                <input type="email" name="email" placeholder="Your Email Address" class="px-4 py-2 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-blue-600" required>
+                <button type="submit" class="bg-blue-800 text-white py-3 px-6 rounded-lg text-lg hover:bg-blue-900 transition-all transform hover:scale-105" id="email-us">
+                    Send Us an Email
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-blue-600 text-white py-16 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-semibold">Subscribe to Our Newsletter</h2>
+            <p class="mt-4 text-lg">Stay up-to-date with the latest news and insights from Instrek Technologies</p>
+            <div class="mt-8 flex justify-center">
+                <div class="flex">
+                    <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-lg border-2 border-gray-300 focus:outline-none focus:border-blue-600" required>
+                    <button type="button" class="bg-blue-800 text-white p-3 rounded-r-lg text-lg hover:bg-blue-900 transition-all transform hover:scale-105" id="subscribe-button">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>&copy; 2025 Instrek Technologies | All rights reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <li><a href="about-us.html" class="hover:underline">About Us</a></li>
+
+
+</body>
+
+</html>
+
